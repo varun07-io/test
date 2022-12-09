@@ -1,0 +1,11 @@
+.nav-btn{
+    color: #fff;
+    background-color: #E82A34;
+    border: none;
+    padding: 0px 40px;
+    font-family: "Gilroy";
+}
+@font-face {
+    font-family: Gilroy;
+    src: url(../assets/fonts/Gilroy-Light.otf);
+}

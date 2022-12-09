@@ -1,0 +1,57 @@
+.landing-grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.landing-img{
+    width: 550px;
+}
+.landing-grid-left{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+.landing-title{
+    font-family: "Montserrat";
+}
+.landing-btn{
+    color: #fff;
+    background-color: #E82A34;
+    border: none;
+    padding: 15px 70px;
+    font-size: 20px;
+    font-family: "Gilroy";
+    margin-top: 20px;
+}
+.landing-grid-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(../assets/fonts/Gilroy-Light.otf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../assets/fonts/Montserrat/Montserrat-ExtraBold.ttf);
+}
+
+@media screen and (max-width: 984px) {
+    .landing-grid{
+        grid-template-columns: 1fr;
+    }
+    .landing-img{
+        width: 400px;
+    }
+    .landing-grid-left{
+        align-items: center;
+        text-align: center;
+        order: 2;
+    }
+}
